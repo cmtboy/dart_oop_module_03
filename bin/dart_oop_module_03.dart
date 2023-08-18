@@ -48,8 +48,8 @@ void main() {
   Car car3 = Car(brand: "Ford", model: "F-150", year: 2015, milesDriven: 0);
   car3.drive(15000);
 
-  print("Car 1: ${car1.brand} ${car1.model} ${car1.year} Miles: ${car1.milesDriven} Age: ${car1.getAge()}");
-  print("Car 2: ${car2.brand} ${car2.model} ${car2.year} Miles: ${car2.milesDriven} Age: ${car2.getAge()}");
-  print("Car 3: ${car3.brand} ${car3.model} ${car3.year} Miles: ${car3.milesDriven} Age: ${car3.getAge()}");
+  print("Car 1: ${car1.getBrand()} ${car1.getModel()} ${car1.getYear()} Miles: ${car1.getMilesDriven()} Age: ${car1.getAge()}");
+  print("Car 2: ${car2.getBrand()} ${car2.getModel()} ${car2.getYear()} Miles: ${car2.getMilesDriven()} Age: ${car2.getAge()}");
+  print("Car 3: ${car3.getBrand()} ${car3.getModel()} ${car3.getYear()} Miles: ${car3.getMilesDriven()} Age: ${car3.getAge()}");
   print("Total number of cars created: ${Car.numberOfCars}");
 }
